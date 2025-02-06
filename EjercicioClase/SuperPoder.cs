@@ -16,12 +16,12 @@ namespace EjercicioClase
 
         public void Imprimir()
         {
-            Console.WriteLine($"Nombre: {Nombre}");
+            Console.WriteLine($"Super Poder: {Nombre}");
             Console.WriteLine($"Descripcion : {Descripcion}");
             Console.WriteLine($"Nivel: {Nivel}");
        
 
-            Console.WriteLine();
+         
         }
 
     }
