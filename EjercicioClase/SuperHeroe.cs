@@ -24,8 +24,11 @@ namespace EjercicioClase
             Console.WriteLine($"Identidad Secreta: {IdentidadSecreta}");
             Console.WriteLine($"Ciudad: {Ciudad}");
             Console.WriteLine($"Puede Volar: {PuedeVolar}");
-            
-            Console.WriteLine();
+            Console.WriteLine($"\tSuper Poder: {SuperPoder.Nombre}");
+            Console.WriteLine($"\tDescripción: {SuperPoder.Descripcion}");
+            Console.WriteLine($"\tNivel: {SuperPoder.Nivel}");
+           
+
         }
 
     }
