@@ -2,7 +2,7 @@
 
 using EjercicioClase;
 
-SuperPoder vuelo = new SuperPoder("Vuelo", "Puede volar a gran velocidad", 5);
+SuperPoder vuelo = new SuperPoder("Super Fuerza", "Capacidad de levantar objetos muy pesados", 9);
 SuperPoder superfuerza = new SuperPoder("Superfuerza", "Tiene una fuerza sobrehumana", 6);
 SuperPoder invisibilidad = new SuperPoder("Invisibilidad", "Puede hacerse invisible", 4);
 
@@ -21,6 +21,8 @@ static void MostrarInformacionHeroe(SuperHeroe heroe)
     Console.WriteLine($"Identidad Secreta: {heroe.IdentidadSecreta}");
     Console.WriteLine($"Ciudad: {heroe.Ciudad}");
     Console.WriteLine($"Puede Volar: {heroe.PuedeVolar}");
-    Console.WriteLine($"SuperPoder: {heroe.SuperPoder.Nombre} - {heroe.SuperPoder.Descripcion} (Nivel {heroe.SuperPoder.Nivel})");
+    Console.WriteLine($"Super Poder: {heroe.SuperPoder.Nombre}");
+    Console.WriteLine($"Descripción: {heroe.SuperPoder.Descripcion}");
+    Console.WriteLine($"Nivel: {heroe.SuperPoder.Nivel}");
     Console.WriteLine();
 }
